@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/artifacts/[artifactId]/sections/[sectionId]/route": "app/api/artifacts/[artifactId]/sections/[sectionId]/route.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/api/artifacts/[artifactId]/sections/[sectionId]/regenerate/route": "app/api/artifacts/[artifactId]/sections/[sectionId]/regenerate/route.js",
+  "/api/projects/[projectId]/artifacts/route": "app/api/projects/[projectId]/artifacts/route.js",
+  "/api/projects/[projectId]/edges/route": "app/api/projects/[projectId]/edges/route.js",
+  "/api/projects/[projectId]/nodes/route": "app/api/projects/[projectId]/nodes/route.js",
+  "/api/projects/[projectId]/clarification/route": "app/api/projects/[projectId]/clarification/route.js",
+  "/api/projects/[projectId]/nodes/[nodeId]/expand/route": "app/api/projects/[projectId]/nodes/[nodeId]/expand/route.js",
+  "/api/projects/[projectId]/route": "app/api/projects/[projectId]/route.js",
+  "/api/projects/[projectId]/nodes/[nodeId]/route": "app/api/projects/[projectId]/nodes/[nodeId]/route.js",
+  "/api/projects/route": "app/api/projects/route.js",
+  "/api/projects/[projectId]/sync-model/route": "app/api/projects/[projectId]/sync-model/route.js",
+  "/page": "app/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/projects/[projectId]/backlog/page": "app/projects/[projectId]/backlog/page.js",
+  "/projects/[projectId]/canvas/page": "app/projects/[projectId]/canvas/page.js",
+  "/projects/[projectId]/artifacts/page": "app/projects/[projectId]/artifacts/page.js",
+  "/projects/[projectId]/review/page": "app/projects/[projectId]/review/page.js",
+  "/projects/[projectId]/page": "app/projects/[projectId]/page.js",
+  "/projects/[projectId]/overview/page": "app/projects/[projectId]/overview/page.js"
+}

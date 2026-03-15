@@ -1,0 +1,2048 @@
+{
+  "workspaces": [
+    {
+      "id": "workspace-default",
+      "title": "Discovery Portfolio",
+      "description": "A workspace for AI-assisted product discovery and requirements shaping."
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_t42gqx3u",
+      "workspaceId": "workspace-default",
+      "title": "A Leave Approval System For Managers, HR, And Employees",
+      "idea": "We need a leave approval system for managers, HR, and employees",
+      "summary": "We need a leave approval system for managers, HR, and employees",
+      "model": {
+        "title": "A Leave Approval System For Managers, HR, And Employees",
+        "summary": "We need a leave approval system for managers, HR, and employees",
+        "problemStatement": "What breaks today, for whom, and with what business cost?",
+        "businessObjective": "Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_5gaognwh",
+          "projectId": "project_t42gqx3u",
+          "type": "idea",
+          "title": "A Leave Approval System For Managers, HR, And Employees",
+          "description": "We need a leave approval system for managers, HR, and employees",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_u7k7kgyy",
+          "projectId": "project_t42gqx3u",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_3dz4od61",
+          "projectId": "project_t42gqx3u",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_n5wumx9u",
+          "projectId": "project_t42gqx3u",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_i0wjroij",
+          "projectId": "project_t42gqx3u",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -340,
+          "y": 0,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_q2sa685r",
+          "projectId": "project_t42gqx3u",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "node_cqvv1kae",
+          "projectId": "project_t42gqx3u",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-14T10:15:14.119Z",
+          "updatedAt": "2026-03-14T10:15:14.119Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_6e70ue1p",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_u7k7kgyy",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "edge_60qa2mqm",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_3dz4od61",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "edge_8h9iuzi1",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_n5wumx9u",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "edge_lqm7vsn4",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_i0wjroij",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "edge_vfham0yn",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_q2sa685r",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        },
+        {
+          "id": "edge_gtspcmnl",
+          "projectId": "project_t42gqx3u",
+          "source": "node_5gaognwh",
+          "target": "node_cqvv1kae",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:15:14.119Z"
+        }
+      ],
+      "artifacts": [],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_i0wjroij",
+            "node_q2sa685r"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_q2sa685r"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T10:15:14.119Z",
+      "updatedAt": "2026-03-14T10:15:14.122Z"
+    },
+    {
+      "id": "project_zo9r2yo4",
+      "workspaceId": "workspace-default",
+      "title": "A Leave Approval System For Managers, HR, And Employees",
+      "idea": "We need a leave approval system for managers, HR, and employees",
+      "summary": "We need a leave approval system for managers, HR, and employees",
+      "model": {
+        "title": "A Leave Approval System For Managers, HR, And Employees",
+        "summary": "We need a leave approval system for managers, HR, and employees",
+        "problemStatement": "What breaks today, for whom, and with what business cost?",
+        "businessObjective": "Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_cbcx2wdt",
+          "projectId": "project_zo9r2yo4",
+          "type": "idea",
+          "title": "A Leave Approval System For Managers, HR, And Employees",
+          "description": "We need a leave approval system for managers, HR, and employees",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_j0u9ab3d",
+          "projectId": "project_zo9r2yo4",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_z8zyrjmi",
+          "projectId": "project_zo9r2yo4",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_ibih11cp",
+          "projectId": "project_zo9r2yo4",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_inflg7c8",
+          "projectId": "project_zo9r2yo4",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -340,
+          "y": 0,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_zmtcx9zs",
+          "projectId": "project_zo9r2yo4",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "node_m2rzbsjd",
+          "projectId": "project_zo9r2yo4",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-14T10:23:16.418Z",
+          "updatedAt": "2026-03-14T10:23:16.418Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_c6l0qeuo",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_j0u9ab3d",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "edge_wivwybi5",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_z8zyrjmi",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "edge_kmc2iq2r",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_ibih11cp",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "edge_z7xu3gc6",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_inflg7c8",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "edge_84qe5qwr",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_zmtcx9zs",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        },
+        {
+          "id": "edge_pr6jkubf",
+          "projectId": "project_zo9r2yo4",
+          "source": "node_cbcx2wdt",
+          "target": "node_m2rzbsjd",
+          "label": "seed",
+          "createdAt": "2026-03-14T10:23:16.418Z"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "artifact_r1c8clws",
+          "projectId": "project_zo9r2yo4",
+          "type": "brd",
+          "title": "A Leave Approval System For Managers, HR, And Employees Business Requirements Document",
+          "summary": "A business-aligned view of the opportunity, scope, risks, and success measures.",
+          "status": "draft",
+          "sections": [
+            {
+              "id": "section_brd_business-context_1",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Business Context",
+              "key": "business-context",
+              "content": "<p>We need a leave approval system for managers, HR, and employees</p>",
+              "sourceFields": [
+                "summary",
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_problem-statement_2",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Problem Statement",
+              "key": "problem-statement",
+              "content": "<p>What breaks today, for whom, and with what business cost?</p>",
+              "sourceFields": [
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_objectives_3",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Objectives",
+              "key": "objectives",
+              "content": "<ul><li>Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.</li><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "businessObjective",
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_stakeholders_4",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Stakeholders",
+              "key": "stakeholders",
+              "content": "<ul><li>Business sponsor</li><li>Operations lead</li><li>Product owner</li></ul>",
+              "sourceFields": [
+                "stakeholders"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_scope_5",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Scope",
+              "key": "scope",
+              "content": "\n    <h3>In Scope</h3>\n    <ul><li>Core workflow</li></ul>\n    <h3>Out of Scope</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "scopeIn",
+                "scopeOut"
+              ],
+              "sourceNodeIds": [
+                "node_inflg7c8"
+              ],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_constraints-risks_6",
+              "artifactId": "artifact_r1c8clws",
+              "title": "Constraints And Risks",
+              "key": "constraints-risks",
+              "content": "\n    <h3>Constraints</h3>\n    <ul><li>Policy and system constraints: List rules, systems, compliance, and budget constraints.</li></ul>\n    <h3>Risks</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "constraints",
+                "risks"
+              ],
+              "sourceNodeIds": [
+                "node_zmtcx9zs"
+              ],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            },
+            {
+              "id": "section_brd_kpis_7",
+              "artifactId": "artifact_r1c8clws",
+              "title": "KPIs And Success Metrics",
+              "key": "kpis",
+              "content": "<ul><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T10:23:30.106Z"
+            }
+          ],
+          "createdAt": "2026-03-14T10:23:30.106Z",
+          "updatedAt": "2026-03-14T10:23:30.106Z"
+        }
+      ],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_inflg7c8",
+            "node_zmtcx9zs"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_zmtcx9zs"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T10:23:16.418Z",
+      "updatedAt": "2026-03-14T15:16:27.223Z"
+    },
+    {
+      "id": "project_433zqbyb",
+      "workspaceId": "workspace-default",
+      "title": "I Want To Create A Test Model For AI Business Analytics",
+      "idea": "I want to create a test model for AI Business Analytics",
+      "summary": "I want to create a test model for AI Business Analytics",
+      "model": {
+        "title": "I Want To Create A Test Model For AI Business Analytics",
+        "summary": "I want to create a test model for AI Business Analytics",
+        "problemStatement": "What breaks today, for whom, and with what business cost?",
+        "businessObjective": "Define a decision-ready requirements baseline for I want to create a test model for AI Business Analytics and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work.",
+          "Feature 1"
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_sbrtlhn1",
+          "projectId": "project_433zqbyb",
+          "type": "idea",
+          "title": "I Want To Create A Test Model For AI Business Analytics",
+          "description": "I want to create a test model for AI Business Analytics",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": -6,
+          "y": 0,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:17:04.188Z"
+        },
+        {
+          "id": "node_eqlncbty",
+          "projectId": "project_433zqbyb",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "node_co89a317",
+          "projectId": "project_433zqbyb",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "node_ufcqhqve",
+          "projectId": "project_433zqbyb",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "node_lh42wi11",
+          "projectId": "project_433zqbyb",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -574,
+          "y": -84,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:17:12.181Z"
+        },
+        {
+          "id": "node_vnz92e0v",
+          "projectId": "project_433zqbyb",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "node_qhgl1zes",
+          "projectId": "project_433zqbyb",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:16:49.795Z",
+          "updatedAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "node_641diypp",
+          "projectId": "project_433zqbyb",
+          "type": "feature",
+          "title": "Feature 1",
+          "description": "",
+          "details": "",
+          "tags": [
+            "manual"
+          ],
+          "x": 254,
+          "y": 80,
+          "createdAt": "2026-03-15T07:14:04.366Z",
+          "updatedAt": "2026-03-15T07:14:04.366Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_hepupzn9",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_eqlncbty",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "edge_7krxwwov",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_co89a317",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "edge_muepitbk",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_ufcqhqve",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "edge_3xiwkwz8",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_lh42wi11",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "edge_twerpd9l",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_vnz92e0v",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        },
+        {
+          "id": "edge_9po3tvxo",
+          "projectId": "project_433zqbyb",
+          "source": "node_sbrtlhn1",
+          "target": "node_qhgl1zes",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:16:49.795Z"
+        }
+      ],
+      "artifacts": [],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_lh42wi11",
+            "node_vnz92e0v",
+            "node_641diypp"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_vnz92e0v"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T15:16:49.795Z",
+      "updatedAt": "2026-03-15T07:14:42.074Z"
+    },
+    {
+      "id": "project_25awc4g2",
+      "workspaceId": "workspace-default",
+      "title": "A Leave Approval System For Managers, HR, And Employees",
+      "idea": "We need a leave approval system for managers, HR, and employees",
+      "summary": "We need a leave approval system for managers, HR, and employees",
+      "model": {
+        "title": "A Leave Approval System For Managers, HR, And Employees",
+        "summary": "We need a leave approval system for managers, HR, and employees",
+        "problemStatement": "Test 1",
+        "businessObjective": "Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_r8bcz83d",
+          "projectId": "project_25awc4g2",
+          "type": "idea",
+          "title": "A Leave Approval System For Managers, HR, And Employees",
+          "description": "We need a leave approval system for managers, HR, and employees",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "node_lvyngc66",
+          "projectId": "project_25awc4g2",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "node_3v72bggn",
+          "projectId": "project_25awc4g2",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "node_sipx8ryb",
+          "projectId": "project_25awc4g2",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -454,
+          "y": 384,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:19:29.457Z"
+        },
+        {
+          "id": "node_i6f11ktu",
+          "projectId": "project_25awc4g2",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -554,
+          "y": -279,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:44:30.039Z"
+        },
+        {
+          "id": "node_napfqwh4",
+          "projectId": "project_25awc4g2",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "node_x38mfie2",
+          "projectId": "project_25awc4g2",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:17:56.500Z",
+          "updatedAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "node_4wly212f",
+          "projectId": "project_25awc4g2",
+          "type": "problem",
+          "title": "Test 1",
+          "description": "",
+          "details": "",
+          "tags": [
+            "manual"
+          ],
+          "x": -766,
+          "y": 57,
+          "createdAt": "2026-03-14T15:18:57.407Z",
+          "updatedAt": "2026-03-14T15:19:14.184Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_b6dlrny4",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_lvyngc66",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_kwvojl2z",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_3v72bggn",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_cgcd9br2",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_sipx8ryb",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_twmfcl07",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_i6f11ktu",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_z7s2ubqs",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_napfqwh4",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_72mmmbnf",
+          "projectId": "project_25awc4g2",
+          "source": "node_r8bcz83d",
+          "target": "node_x38mfie2",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:17:56.500Z"
+        },
+        {
+          "id": "edge_njflamg3",
+          "projectId": "project_25awc4g2",
+          "source": "node_i6f11ktu",
+          "target": "node_4wly212f",
+          "label": "relates",
+          "createdAt": "2026-03-14T15:44:35.592Z"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "artifact_dj82yv2g",
+          "projectId": "project_25awc4g2",
+          "type": "brd",
+          "title": "A Leave Approval System For Managers, HR, And Employees Business Requirements Document",
+          "summary": "A business-aligned view of the opportunity, scope, risks, and success measures.",
+          "status": "draft",
+          "sections": [
+            {
+              "id": "section_brd_business-context_1",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Business Context",
+              "key": "business-context",
+              "content": "<p>We need a leave approval system for managers, HR, and employees</p>",
+              "sourceFields": [
+                "summary",
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-15T07:16:57.511Z"
+            },
+            {
+              "id": "section_brd_problem-statement_2",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Problem Statement",
+              "key": "problem-statement",
+              "content": "<p>Test 1</p>",
+              "sourceFields": [
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            },
+            {
+              "id": "section_brd_objectives_3",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Objectives",
+              "key": "objectives",
+              "content": "<ul><li>Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.</li><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "businessObjective",
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            },
+            {
+              "id": "section_brd_stakeholders_4",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Stakeholders",
+              "key": "stakeholders",
+              "content": "<ul><li>Business sponsor</li><li>Operations lead</li><li>Product owner</li></ul>",
+              "sourceFields": [
+                "stakeholders"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            },
+            {
+              "id": "section_brd_scope_5",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Scope",
+              "key": "scope",
+              "content": "\n    <h3>In Scope</h3>\n    <ul><li>Core workflow</li></ul>\n    <h3>Out of Scope</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "scopeIn",
+                "scopeOut"
+              ],
+              "sourceNodeIds": [
+                "node_i6f11ktu"
+              ],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            },
+            {
+              "id": "section_brd_constraints-risks_6",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "Constraints And Risks",
+              "key": "constraints-risks",
+              "content": "\n    <h3>Constraints</h3>\n    <ul><li>Policy and system constraints: List rules, systems, compliance, and budget constraints.</li></ul>\n    <h3>Risks</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "constraints",
+                "risks"
+              ],
+              "sourceNodeIds": [
+                "node_napfqwh4"
+              ],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            },
+            {
+              "id": "section_brd_kpis_7",
+              "artifactId": "artifact_dj82yv2g",
+              "title": "KPIs And Success Metrics",
+              "key": "kpis",
+              "content": "<ul><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-15T07:16:45.515Z"
+            }
+          ],
+          "createdAt": "2026-03-15T07:16:45.515Z",
+          "updatedAt": "2026-03-15T07:16:57.511Z"
+        }
+      ],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_i6f11ktu",
+            "node_napfqwh4"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_napfqwh4"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T15:17:56.500Z",
+      "updatedAt": "2026-03-15T07:16:57.512Z"
+    },
+    {
+      "id": "project_egarr087",
+      "workspaceId": "workspace-default",
+      "title": "A Leave Approval System For Managers, HR, And Employees",
+      "idea": "We need a leave approval system for managers, HR, and employees",
+      "summary": "We need a leave approval system for managers, HR, and employees",
+      "model": {
+        "title": "A Leave Approval System For Managers, HR, And Employees",
+        "summary": "We need a leave approval system for managers, HR, and employees",
+        "problemStatement": "Fix authenticaton",
+        "businessObjective": "Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_kmp6a5vr",
+          "projectId": "project_egarr087",
+          "type": "idea",
+          "title": "A Leave Approval System For Managers, HR, And Employees",
+          "description": "We need a leave approval system for managers, HR, and employees",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_0rl441ho",
+          "projectId": "project_egarr087",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_4zc1voc7",
+          "projectId": "project_egarr087",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_h4ezb2zc",
+          "projectId": "project_egarr087",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_fp5j54sz",
+          "projectId": "project_egarr087",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_vwbyc9lt",
+          "projectId": "project_egarr087",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_qzrmwe7n",
+          "projectId": "project_egarr087",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:54:52.637Z",
+          "updatedAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "node_n0tbwhz1",
+          "projectId": "project_egarr087",
+          "type": "problem",
+          "title": "Fix authenticaton",
+          "description": "",
+          "details": "",
+          "tags": [
+            "manual"
+          ],
+          "x": -849,
+          "y": 380,
+          "createdAt": "2026-03-14T16:53:54.737Z",
+          "updatedAt": "2026-03-14T16:55:06.618Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_0oeijhaa",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_0rl441ho",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_qeefff35",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_4zc1voc7",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_7mf5u45a",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_h4ezb2zc",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_lfb92e79",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_fp5j54sz",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_swjwheul",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_vwbyc9lt",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_46ppcxlr",
+          "projectId": "project_egarr087",
+          "source": "node_kmp6a5vr",
+          "target": "node_qzrmwe7n",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:54:52.637Z"
+        },
+        {
+          "id": "edge_a690q3mc",
+          "projectId": "project_egarr087",
+          "source": "node_fp5j54sz",
+          "target": "node_n0tbwhz1",
+          "label": "relates",
+          "createdAt": "2026-03-14T16:54:50.506Z"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "artifact_9kys5jgq",
+          "projectId": "project_egarr087",
+          "type": "brd",
+          "title": "A Leave Approval System For Managers, HR, And Employees Business Requirements Document",
+          "summary": "A business-aligned view of the opportunity, scope, risks, and success measures.",
+          "status": "draft",
+          "sections": [
+            {
+              "id": "section_brd_business-context_1",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Business Context",
+              "key": "business-context",
+              "content": "<p>We need a leave approval system for managers, HR, and employeesgvgvhvhvgvygvgtcgvuhbuviuygygyuvtcfc</p>",
+              "sourceFields": [
+                "summary",
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T16:56:37.329Z"
+            },
+            {
+              "id": "section_brd_problem-statement_2",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Problem Statement",
+              "key": "problem-statement",
+              "content": "<p>Fix authenticaton</p>",
+              "sourceFields": [
+                "problemStatement"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            },
+            {
+              "id": "section_brd_objectives_3",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Objectives",
+              "key": "objectives",
+              "content": "<ul><li>Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.</li><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "businessObjective",
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            },
+            {
+              "id": "section_brd_stakeholders_4",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Stakeholders",
+              "key": "stakeholders",
+              "content": "<ul><li>Business sponsor</li><li>Operations lead</li><li>Product owner</li></ul>",
+              "sourceFields": [
+                "stakeholders"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            },
+            {
+              "id": "section_brd_scope_5",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Scope",
+              "key": "scope",
+              "content": "\n    <h3>In Scope</h3>\n    <ul><li>Core workflow</li></ul>\n    <h3>Out of Scope</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "scopeIn",
+                "scopeOut"
+              ],
+              "sourceNodeIds": [
+                "node_fp5j54sz"
+              ],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            },
+            {
+              "id": "section_brd_constraints-risks_6",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "Constraints And Risks",
+              "key": "constraints-risks",
+              "content": "\n    <h3>Constraints</h3>\n    <ul><li>Policy and system constraints: List rules, systems, compliance, and budget constraints.</li></ul>\n    <h3>Risks</h3>\n    <p>Pending clarification.</p>\n  ",
+              "sourceFields": [
+                "constraints",
+                "risks"
+              ],
+              "sourceNodeIds": [
+                "node_vwbyc9lt"
+              ],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            },
+            {
+              "id": "section_brd_kpis_7",
+              "artifactId": "artifact_9kys5jgq",
+              "title": "KPIs And Success Metrics",
+              "key": "kpis",
+              "content": "<ul><li>Success outcomes: Define measurable outcomes that would make the initiative successful.</li></ul>",
+              "sourceFields": [
+                "successMetrics"
+              ],
+              "sourceNodeIds": [],
+              "updatedAt": "2026-03-14T16:56:27.418Z"
+            }
+          ],
+          "createdAt": "2026-03-14T16:56:27.418Z",
+          "updatedAt": "2026-03-14T16:56:37.329Z"
+        }
+      ],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_fp5j54sz",
+            "node_vwbyc9lt"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_vwbyc9lt"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T15:54:52.637Z",
+      "updatedAt": "2026-03-14T16:56:37.330Z"
+    },
+    {
+      "id": "project_i3bizcr4",
+      "workspaceId": "workspace-default",
+      "title": "A Leave Approval System For Managers, HR, And Employees",
+      "idea": "We need a leave approval system for managers, HR, and employees",
+      "summary": "We need a leave approval system for managers, HR, and employees",
+      "model": {
+        "title": "A Leave Approval System For Managers, HR, And Employees",
+        "summary": "We need a leave approval system for managers, HR, and employees",
+        "problemStatement": "What breaks today, for whom, and with what business cost?",
+        "businessObjective": "Define a decision-ready requirements baseline for We need a leave approval system for managers, HR, and employees and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_tv4v9x7w",
+          "projectId": "project_i3bizcr4",
+          "type": "idea",
+          "title": "A Leave Approval System For Managers, HR, And Employees",
+          "description": "We need a leave approval system for managers, HR, and employees",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_6fo2j4kr",
+          "projectId": "project_i3bizcr4",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_52v0o0jm",
+          "projectId": "project_i3bizcr4",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_yj33g8s0",
+          "projectId": "project_i3bizcr4",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_y4x0kjdu",
+          "projectId": "project_i3bizcr4",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -340,
+          "y": 0,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_15weuxa5",
+          "projectId": "project_i3bizcr4",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "node_tbs53ko0",
+          "projectId": "project_i3bizcr4",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 334,
+          "y": -1022,
+          "createdAt": "2026-03-14T15:56:57.802Z",
+          "updatedAt": "2026-03-14T16:05:54.152Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_oln0uugz",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_6fo2j4kr",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "edge_hrs6ksoh",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_52v0o0jm",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "edge_fwn03yqr",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_yj33g8s0",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "edge_krlmwu4y",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_y4x0kjdu",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "edge_cfs9vwyt",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_15weuxa5",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        },
+        {
+          "id": "edge_ks0so9j8",
+          "projectId": "project_i3bizcr4",
+          "source": "node_tv4v9x7w",
+          "target": "node_tbs53ko0",
+          "label": "seed",
+          "createdAt": "2026-03-14T15:56:57.802Z"
+        }
+      ],
+      "artifacts": [],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_y4x0kjdu",
+            "node_15weuxa5"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_15weuxa5"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-14T15:56:57.802Z",
+      "updatedAt": "2026-03-14T16:05:54.154Z"
+    },
+    {
+      "id": "project_571pwr1o",
+      "workspaceId": "workspace-default",
+      "title": "An Internal HR Tool For Better Scanning Of Potential Candidates",
+      "idea": "We need an internal HR tool for better scanning of potential candidates",
+      "summary": "We need an internal HR tool for better scanning of potential candidates",
+      "model": {
+        "title": "An Internal HR Tool For Better Scanning Of Potential Candidates",
+        "summary": "We need an internal HR tool for better scanning of potential candidates",
+        "problemStatement": "What breaks today, for whom, and with what business cost?",
+        "businessObjective": "Define a decision-ready requirements baseline for We need an internal HR tool for better scanning of potential candidates and reduce ambiguity before delivery planning starts.",
+        "stakeholders": [
+          "Business sponsor",
+          "Operations lead",
+          "Product owner"
+        ],
+        "targetUsers": [
+          "Primary end user",
+          "Approver or reviewer",
+          "Administrator",
+          "User groups: Identify the people who will use or approve the workflow."
+        ],
+        "userPainPoints": [],
+        "scopeIn": [],
+        "scopeOut": [],
+        "assumptions": [],
+        "constraints": [
+          "Policy and system constraints: List rules, systems, compliance, and budget constraints."
+        ],
+        "risks": [],
+        "successMetrics": [
+          "Success outcomes: Define measurable outcomes that would make the initiative successful."
+        ],
+        "functionalRequirements": [
+          "Core workflow: Capture the smallest end-to-end business flow that must work."
+        ],
+        "nonFunctionalRequirements": [],
+        "dependencies": [],
+        "openQuestions": [
+          "Discovery gaps: Flag the missing decisions that block confident requirement generation."
+        ]
+      },
+      "nodes": [
+        {
+          "id": "node_dayigc2e",
+          "projectId": "project_571pwr1o",
+          "type": "idea",
+          "title": "An Internal HR Tool For Better Scanning Of Potential Candidates",
+          "description": "We need an internal HR tool for better scanning of potential candidates",
+          "details": "",
+          "tags": [
+            "seed"
+          ],
+          "sourceField": "summary",
+          "x": 0,
+          "y": 0,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_qydf6c43",
+          "projectId": "project_571pwr1o",
+          "type": "problem",
+          "title": "Problem framing",
+          "description": "What breaks today, for whom, and with what business cost?",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 340,
+          "y": 0,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_d8zzlcuo",
+          "projectId": "project_571pwr1o",
+          "type": "user",
+          "title": "User groups",
+          "description": "Identify the people who will use or approve the workflow.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": 294,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_4gthh0a4",
+          "projectId": "project_571pwr1o",
+          "type": "goal",
+          "title": "Success outcomes",
+          "description": "Define measurable outcomes that would make the initiative successful.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": 294,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_2b5z12i2",
+          "projectId": "project_571pwr1o",
+          "type": "feature",
+          "title": "Core workflow",
+          "description": "Capture the smallest end-to-end business flow that must work.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -340,
+          "y": 0,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_aktniimz",
+          "projectId": "project_571pwr1o",
+          "type": "constraint",
+          "title": "Policy and system constraints",
+          "description": "List rules, systems, compliance, and budget constraints.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": -170,
+          "y": -294,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "node_vrv4yrj1",
+          "projectId": "project_571pwr1o",
+          "type": "open-question",
+          "title": "Discovery gaps",
+          "description": "Flag the missing decisions that block confident requirement generation.",
+          "details": "",
+          "tags": [
+            "ai-seeded"
+          ],
+          "x": 170,
+          "y": -294,
+          "createdAt": "2026-03-15T08:54:21.055Z",
+          "updatedAt": "2026-03-15T08:54:21.055Z"
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge_4i2o0lo1",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_qydf6c43",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "edge_ur045qkw",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_d8zzlcuo",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "edge_6vcnbgxu",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_4gthh0a4",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "edge_5mhaj5a2",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_2b5z12i2",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "edge_cfcvksii",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_aktniimz",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        },
+        {
+          "id": "edge_a1wmuq3f",
+          "projectId": "project_571pwr1o",
+          "source": "node_dayigc2e",
+          "target": "node_vrv4yrj1",
+          "label": "seed",
+          "createdAt": "2026-03-15T08:54:21.055Z"
+        }
+      ],
+      "artifacts": [],
+      "clarificationQuestions": [
+        {
+          "id": "scope-boundary",
+          "prompt": "What is explicitly out of scope for the MVP so the first release stays narrow?",
+          "field": "scopeOut",
+          "rationale": "Clear exclusions reduce discovery sprawl and strengthen the PRD.",
+          "nodeIds": [
+            "node_2b5z12i2",
+            "node_aktniimz"
+          ],
+          "priority": "medium"
+        },
+        {
+          "id": "critical-risk",
+          "prompt": "Which policy, compliance, or operational risk would make this initiative fail if ignored?",
+          "field": "risks",
+          "rationale": "High-stakes risks should be captured before formalizing requirements.",
+          "nodeIds": [
+            "node_aktniimz"
+          ],
+          "priority": "medium"
+        }
+      ],
+      "clarificationAnswers": [],
+      "validationWarnings": [
+        {
+          "id": "open-questions-remain",
+          "severity": "warning",
+          "title": "Open questions remain unresolved",
+          "message": "Regenerate artifacts after resolving high-priority discovery questions.",
+          "field": "openQuestions"
+        }
+      ],
+      "createdAt": "2026-03-15T08:54:21.055Z",
+      "updatedAt": "2026-03-15T08:54:21.056Z"
+    }
+  ]
+}

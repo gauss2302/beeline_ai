@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/artifacts/[artifactId]/sections/[sectionId]/route": "/api/artifacts/[artifactId]/sections/[sectionId]",
+  "/api/health/route": "/api/health",
+  "/api/artifacts/[artifactId]/sections/[sectionId]/regenerate/route": "/api/artifacts/[artifactId]/sections/[sectionId]/regenerate",
+  "/api/projects/[projectId]/artifacts/route": "/api/projects/[projectId]/artifacts",
+  "/api/projects/[projectId]/edges/route": "/api/projects/[projectId]/edges",
+  "/api/projects/[projectId]/nodes/route": "/api/projects/[projectId]/nodes",
+  "/api/projects/[projectId]/clarification/route": "/api/projects/[projectId]/clarification",
+  "/api/projects/[projectId]/nodes/[nodeId]/expand/route": "/api/projects/[projectId]/nodes/[nodeId]/expand",
+  "/api/projects/[projectId]/route": "/api/projects/[projectId]",
+  "/api/projects/[projectId]/nodes/[nodeId]/route": "/api/projects/[projectId]/nodes/[nodeId]",
+  "/api/projects/route": "/api/projects",
+  "/api/projects/[projectId]/sync-model/route": "/api/projects/[projectId]/sync-model",
+  "/page": "/",
+  "/projects/page": "/projects",
+  "/projects/[projectId]/backlog/page": "/projects/[projectId]/backlog",
+  "/projects/[projectId]/canvas/page": "/projects/[projectId]/canvas",
+  "/projects/[projectId]/artifacts/page": "/projects/[projectId]/artifacts",
+  "/projects/[projectId]/review/page": "/projects/[projectId]/review",
+  "/projects/[projectId]/page": "/projects/[projectId]",
+  "/projects/[projectId]/overview/page": "/projects/[projectId]/overview"
+}
