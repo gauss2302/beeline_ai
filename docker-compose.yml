@@ -34,7 +34,8 @@ services:
       - .env
     environment:
       NODE_ENV: production
-      PORT: ${PORT:-3001}
+      # Inside container app listens on 3000; host port 3001 maps to it (Dokploy uses 3000)
+      PORT: 3000
       APP_URL: ${APP_URL:-http://localhost:3001}
       DATABASE_URL: ${DATABASE_URL:-postgresql://analyst:analyst@db:5432/analyst_os}
       DATABASE_POOL_MAX: ${DATABASE_POOL_MAX:-10}
