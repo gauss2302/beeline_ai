@@ -29,7 +29,12 @@ const config: Config = {
         panelMuted: "var(--panel-muted)",
         border: "var(--border)",
         accent: "var(--accent)",
-        accentSoft: "var(--accent-soft)"
+        accentSoft: "var(--accent-soft)",
+        primary: "#ffffff",
+        "primary-foreground": "#000000",
+        muted: {
+          foreground: "rgba(255,255,255,0.6)"
+        }
       },
       borderRadius: {
         xl: "1.5rem",
@@ -44,8 +49,20 @@ const config: Config = {
           "radial-gradient(circle at top left, color-mix(in oklab, var(--accent-soft) 58%, transparent) 0, transparent 38%), radial-gradient(circle at bottom right, color-mix(in oklab, var(--ink-shadow) 18%, transparent) 0, transparent 52%)"
       },
       fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Space Grotesk", "system-ui", "sans-serif"],
         body: "var(--font-body)",
-        display: "var(--font-display)"
+        mono: ["ui-monospace", "monospace"],
+        geist: ['"Geist Sans"', "system-ui", "sans-serif"]
+      },
+      keyframes: {
+        "marquee-scroll": {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" }
+        }
+      },
+      animation: {
+        "marquee-scroll": "marquee-scroll 20s linear infinite"
       }
     }
   },

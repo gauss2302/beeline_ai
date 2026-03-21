@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
+import { LandingTheme } from "@/components/landing-theme";
 
 export const metadata: Metadata = {
-  title: "Analyst OS",
-  description: "An AI business analyst workspace for idea structuring, clarification, and artifact generation."
+  title: "VINCENT — Premium BI Analytics with AI",
+  description:
+    "Premium BI analytics powered by AI. Transform raw data into actionable insights from source to dashboard."
 };
 
 export default function RootLayout({
@@ -13,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen overflow-x-hidden font-body antialiased">{children}</body>
+      <body className="min-h-screen overflow-x-hidden font-sans antialiased">
+        <LandingTheme />
+        {children}
+      </body>
     </html>
   );
 }
